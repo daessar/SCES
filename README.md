@@ -14,6 +14,10 @@ SCES es un sistema que automatiza el proceso de citaciones a comités en el cent
 
 ![Plantilla](public/images/plantilla.png)
 
+## Ayudas
+
+-   [Error al ejecutar php artisan serve ](https://www.youtube.com/watch?v=Y5lRWyDfnE4)
+
 ## Grupos
 
 ### Grupo 1
