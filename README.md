@@ -20,7 +20,7 @@ SCES es un sistema que automatiza el proceso de citaciones a comités en el cent
 
 ## Grupos
 
-### Grupo 1
+### Grupo 3
 
 -   Alejandro B
 -   Gisela Criollo Suarez
@@ -34,7 +34,7 @@ SCES es un sistema que automatiza el proceso de citaciones a comités en el cent
 -   Valentina Estrada
 -   Daniel Sánchez
 
-### Grupo 3
+### Grupo 1
 
 -   Andres Fajardo
 -   Daniela Menjura
