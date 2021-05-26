@@ -66,7 +66,7 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="adminlte/img/profe.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+              <img src="adminlte/img/" alt="User Avatar" class="img-size-50 mr-3 img-circle">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   Carlos Luna
@@ -117,7 +117,7 @@
           <img src="adminlte/img/miyo.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Cristian Fajardo</a>
+          <a href="#" class="d-block">Jaime Cardona</a>
         </div>
       </div>
 
