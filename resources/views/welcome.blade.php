@@ -79,8 +79,8 @@
             <!-- Message End -->
           </a>
           <div class="dropdown-divider"></div>
-          <a href="#" class="dropdown-item">                   
-            
+          <a href="#" class="dropdown-item">
+
             <!-- Message End -->
           </a>
           <div class="dropdown-divider"></div>
@@ -114,10 +114,10 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="adminlte/img/miyo.jpg" class="img-circle elevation-2" alt="User Image">
+          <img src="adminlte/img/sena.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Cristian Fajardo</a>
+          <a href="#" class="d-block">Grupo 3</a>
         </div>
       </div>
 
@@ -167,7 +167,7 @@
               </li>
             </ul>
           </li>
-         
+
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-table"></i>
@@ -286,7 +286,7 @@
               </li>
             </ul>
           </li>
-      
+
           <li class="nav-header">Notas</li>
           <li class="nav-item">
             <a href="#" class="nav-link">
@@ -336,7 +336,7 @@
   </div>
   <!-- menu content -->
   @yield('content')
-  
+
   <!-- /.content-wrapper -->
   <footer class="main-footer">
     <strong>Copy Equipo 1ss
