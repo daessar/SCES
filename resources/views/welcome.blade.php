@@ -330,7 +330,7 @@
     </div>
     <div class="tab-content">
       <div class="tab-empty">
-        <h2 class="display-4">Bienvenidos</h2>
+        <h2 class="display-4">Bienvenidos a SCES</h2>
       </div>
     </div>
   </div>
