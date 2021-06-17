@@ -13,7 +13,7 @@ class AntecedentesController extends Controller
      */
     public function index()
     {
-        //
+        return view('Antecedentes.antecedentes');
     }
 
     /**
