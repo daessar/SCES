@@ -24,6 +24,10 @@ Route::get('admin', function () {
 });
 
 /*Route::get('Antecedentes', function () {
+<<<<<<< HEAD
    
+=======
+    return  view('Antecedentes.antecedentes');
+>>>>>>> 9d489f288128a968667aec0f08bbd4a782a984e4
 });*/
-Route::resource('Antecedentes', AntecedentesController::class);
+//Route::resource('Antecedentes', AntecedentesController::class);
