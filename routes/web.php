@@ -1,5 +1,6 @@
 <?php
 use App\Http\Controllers\InicioController;
+use App\Http\Controllers\AntecedentesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,6 +23,7 @@ Route::get('admin', function () {
     return  view('admin.dashboard');
 });
 
-Route::get('Antecedentes', function () {
+/*Route::get('Antecedentes', function () {
     return  view('Antecedentes.antecedentes');
-});
+});*/
+Route::resource('Antecedentes', AntecedentesController::class);

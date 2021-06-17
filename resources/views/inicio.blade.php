@@ -178,7 +178,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="Antecedentes/antecedentes" class="nav-link">
+                <a href="/Antecedentes/antecedentes" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Antecedentes Aprendiz</p>
                 </a>
@@ -321,11 +321,13 @@
       <a class="nav-link bg-light" href="#" data-widget="iframe-scrollright"><i class="fas fa-angle-double-right"></i></a>
       <a class="nav-link bg-light" href="#" data-widget="iframe-fullscreen"><i class="fas fa-expand"></i></a>
     </div>
+
     <div class="tab-content">
       <div class="tab-empty">
         <h2 class="display-4">Bienvenidos a SCES</h2>
       </div>
     </div>
+  
   </div>
   <!-- menu content -->
   @yield('content')

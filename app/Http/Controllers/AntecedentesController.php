@@ -13,7 +13,10 @@ class AntecedentesController extends Controller
      */
     public function index()
     {
-        //
+
+       //$equipos = Equipo::all();
+      return view('Antecedentes.antecedentes');
+      //->with('equipos', $equipos);
     }
 
     /**
