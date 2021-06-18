@@ -15,6 +15,7 @@ class AntecedentesController extends Controller
     {
 
         return view('Antecedentes.antecedentes');
+        //return view('inicio');
     }
 
     /**

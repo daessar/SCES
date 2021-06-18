@@ -178,7 +178,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="/Antecedentes/antecedentes" class="nav-link">
+                <a href="Antecedentes/antecedentes" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Antecedentes Aprendiz</p>
                 </a>
@@ -327,14 +327,14 @@
         <h2 class="display-4">Bienvenidos a SCES</h2>
       </div>
     </div>
-  
+
   </div>
   <!-- menu content -->
   @yield('content')
 
   <!-- /.content-wrapper -->
   <footer class="main-footer">
-    <strong>Copy Equipo 1ss
+    <strong>Copy Equipo 3
     <div class="float-right d-none d-sm-inline-block">
       <b>Version</b>1.1
     </div>
