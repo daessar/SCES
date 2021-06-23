@@ -59,6 +59,9 @@
             <hr>
             <label for="citaciones" >citaciones del aprendiz...</label><br>
             <hr>
+            <button type="button" class="btn btn-outline-danger" style="margin-left:42%;" id="cerrar1" onclick="cerrar1()" >Cerrar</button>
+            <hr>
+
           </div>
 
       </div>
@@ -119,6 +122,8 @@
             <hr>
             <label for="citaciones" >citaciones del aprendiz...</label><br>
             <hr>
+            <button type="button" class="btn btn-outline-danger" style="margin-left:42%;" id="cerrar2" onclick="cerrar2()" >Cerrar</button>
+            <hr>
           </div>
         </div>
       </div>
@@ -154,6 +159,27 @@ function aceptar1(){
   document.getElementById("buscarapren").style.display="block";
   document.getElementById("apr").style.display="block";
   document.getElementById("buscarapr").style.display="block";
+
+}
+function cerrar1(){
+  document.getElementById("antece").style.display="none";
+  document.getElementById("aceptar").style.display="none";
+  document.getElementById("labuscar1").style.display="none";
+  document.getElementById("buscar1").style.display="none";
+  document.getElementById("buscarapr").style.display="none";
+  document.getElementById("apr").style.display="none"
+  document.getElementById("buscarapren").style.display="none";
+/*  document.getElementById("buscarapren").style.display="none";
+  document.getElementById("apr").style.display="none";
+  document.getElementById("buscarapr").style.display="none";*/
+
+}
+function cerrar2(){
+  document.getElementById("buscar2").style.display="none";
+  document.getElementById("labuscar2").style.display="none";
+  document.getElementById("aceptar2").style.display="none";
+  document.getElementById("tabla").style.display="none";
+  document.getElementById("antece2").style.display="none";
 
 }
 function buscaraprendiz(){
