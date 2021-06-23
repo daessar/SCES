@@ -14,7 +14,7 @@
     <h3  style="margin-top:10px;">Método de búsqueda</h3>
       <div class="btngrupo">
       <button type="button" class="btn btn-outline-warning" onclick="buscarficha()">Buscar por Ficha</button>
-      <div class="form-group">
+      <div class="form-group" >
           <label id="labuscar1" style="margin:10px;">Ingrese la Ficha </label>
           <div class="input-group mb-3">
 
