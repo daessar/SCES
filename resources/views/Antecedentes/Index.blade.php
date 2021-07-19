@@ -1,4 +1,6 @@
+@extends('admin.layout')
 
+@section('content')
 
 <!DOCTYPE html>
 <html lang="en">
@@ -7,11 +9,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ asset('Estilos/estilos.css') }}">
+
   <title>Antecedentes</title>
 </head>
 <body>
   <div class="container" >
-    <h3  style="margin-top:10px;">Método de búsqueda</h3>
+  <h1>Antecedentes del Aprendiz</h1>
+    <h3>Método de búsqueda</h3>
       <div class="btngrupo">
       <button type="button" class="btn btn-outline-warning" onclick="buscarficha()">Buscar por Ficha</button>
       <div class="form-group" >
@@ -33,7 +38,7 @@
            </select>
               <button type="button" class="btn btn-outline-warning" id="buscarapr" onclick="ant()">Buscar</button>
           </div>
-          <div class="container" style="background:#BFC9CA;border-radius: 15px; width: 50%;" id="antece">
+          <div class="container" style="background:#BFC9CA;border-radius: 15px; width: 55%;" id="antece">
             <h4 class="text-center">Antecedentes del aprendiz</h4>
             <label for="id" > Id del aprendiz...</label><br>
             <hr>
@@ -208,3 +213,4 @@ function ant2()
 
 
 </html>
+@endsection

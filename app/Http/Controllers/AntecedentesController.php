@@ -20,7 +20,8 @@ class AntecedentesController extends Controller
     public function index()
     {
 
-        return view('Antecedentes.antecedentes');
+        return view('Antecedentes.Index');
+      
         //return view('inicio');
     }
 

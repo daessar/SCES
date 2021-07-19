@@ -25,7 +25,10 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="index3.html" class="nav-link">SofiaPlus</a>
+        <a href="http://oferta.senasofiaplus.edu.co/sofia-oferta/" class="nav-link">SofiaPlus</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="https://sena.territorio.la/cms/index.php" class="nav-link">Territorium</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
         <a href="#" class="nav-link">Contacto</a>
@@ -148,7 +151,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./index.html" class="nav-link">
+                <a href="../Antecedentes/ensayo.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Automatizacion Industrial</p>
                 </a>
@@ -177,14 +180,15 @@
               </p>
             </a>
             <ul class="nav nav-treeview">
+              
               <li class="nav-item">
-                <a href="pages/tables/simple.html" class="nav-link">
+                <a href="/Antecedentes" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Antecedentes Aprendiz</p>
+                  <p>Antecedentes del Aprendiz</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/tables/data.html" class="nav-link">
+                <a href="/Estimulos" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Beneficios Estimulo</p>
                 </a>
@@ -313,33 +317,15 @@
     <!-- /.sidebar -->
   </aside>
 
-  <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper iframe-mode" data-widget="iframe" data-loading-screen="750">
-    <div class="nav navbar navbar-expand navbar-white navbar-light border-bottom p-0">
-      <div class="nav-item dropdown">
-        <a class="nav-link bg-danger dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Close</a>
-        <div class="dropdown-menu mt-0">
-          <a class="dropdown-item" href="#" data-widget="iframe-close" data-type="all">Cerrar</a>
-          <a class="dropdown-item" href="#" data-widget="iframe-close" data-type="all-other">Cerrar todas</a>
-        </div>
-      </div>
-      <a class="nav-link bg-light" href="#" data-widget="iframe-scrollleft"><i class="fas fa-angle-double-left"></i></a>
-      <ul class="navbar-nav overflow-hidden" role="tablist"></ul>
-      <a class="nav-link bg-light" href="#" data-widget="iframe-scrollright"><i class="fas fa-angle-double-right"></i></a>
-      <a class="nav-link bg-light" href="#" data-widget="iframe-fullscreen"><i class="fas fa-expand"></i></a>
-    </div>
-    <div class="tab-content">
-      <div class="tab-empty">
-        <h2 class="display-4">Bienvenidos a SCES</h2>
-      </div>
-    </div>
-  </div>
+
+      
+  
   <!-- menu content -->
   @yield('content')
   
   <!-- /.content-wrapper -->
   <footer class="main-footer">
-    <strong>Copy Equipo 1ss
+    <strong>Copy Equipo 3ss
     <div class="float-right d-none d-sm-inline-block">
       <b>Version</b>1.1
     </div>
@@ -371,3 +357,4 @@
 <script src="adminlte/js/demo.js"></script>
 </body>
 </html>
+

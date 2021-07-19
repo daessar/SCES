@@ -23,4 +23,5 @@ Route::get('admin', function () {
     return  view('admin.dashboard');
 });
 
+//Ruta Antecedentes
 Route::resource('Antecedentes', AntecedentesController::class);
