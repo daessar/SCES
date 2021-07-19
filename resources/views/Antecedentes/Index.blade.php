@@ -40,13 +40,13 @@
           </div>
           <div class="container" style="background:#BFC9CA;border-radius: 15px; width: 55%;" id="antece">
             <h4 class="text-center">Antecedentes del aprendiz</h4>
-            <label for="id" > Id del aprendiz...</label><br>
+            <label for="id" > {{$antecedente->ANT_PK_Id}}</label><br>
             <hr>
-            <label for="nombre" >Nombre del aprendiz...</label><br>
+            <label for="nombre" >ficha del aprendiz: {{$antecedente->FIC_FK_NumeroFicha}}</label><br>
             <hr>
-            <label for="documento" > Documento del aprendiz...</label><br>
+            <label for="documento" > Documento: {{$antecedente->USU_FK_Usuarios_Aprendiz}} </label><br>
             <hr>
-            <label for="correo" > Correo del aprendiz...</label><br>
+            <label for="correo" > Correo: {{$antecedente->USU_FK_Usuarios_Aprendiz}}</label><br>
             <hr>
             <label for="Telefono" >Telefono del aprendiz...</label><br>
             <hr>

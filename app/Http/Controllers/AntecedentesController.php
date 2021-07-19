@@ -3,12 +3,15 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\sc_antecedentes;
 use App\Models\sc_aprendiz_ficha;
 use App\Models\sc_comite;
 use App\Models\sc_condicionamiento_matricula;
 use App\Models\sc_ficha;
 use App\Models\sc_novedad;
 use App\Models\sc_estimulos;
+use App\Models\sc_documento;
+use App\Models\sc_motivo_antecedente;
 
 class AntecedentesController extends Controller
 {
@@ -54,8 +57,11 @@ class AntecedentesController extends Controller
      */
     public function show($id)
     {
-        //
-    //  $documento = sc_f
+
+      $antecedente = sc_antecedentes::find($id);
+      return view('Antecedentes.antecedentes')
+      ->with('antecedente', $antecedente);
+      
     }
 
     /**
