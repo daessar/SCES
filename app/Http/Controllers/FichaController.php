@@ -3,11 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Subdirector;
+use App\Models\sc_ficha;
 
 
-
-class SubdirectorController extends Controller
+class FichaController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,8 +15,9 @@ class SubdirectorController extends Controller
      */
     public function index()
     {
-         return view('subdirector.index')
-            ->with('subdirectores', $this->subdirectores);
+        $fichas=sc_ficha::all();
+        return view('fichas.index')
+           ->with('fichas', $fichas);
     }
 
     /**
@@ -27,7 +27,7 @@ class SubdirectorController extends Controller
      */
     public function create()
     {
-         return view("subdirector.create");
+        return view("fichas.create");
     }
 
     /**
@@ -38,13 +38,14 @@ class SubdirectorController extends Controller
      */
     public function store(Request $request)
     {
-        /*$request->validate([
-            'nombre'=> 'required'
-        ]);
-        $posicion= new Posicion();
-        $posicion->nombre= $request->nombre;//request=corresponde al nombre del input del formulario.
-        $posicion->save();
-        return "Posición Guardada";*/
+        $ficha= new sc_ficha();
+        $ficha->FIC_PK_NumeroFicha= $request->numeroficha;//request=corresponde al nombre del input del formulario.
+        $ficha->FIC_FechaInicio= $request->fechainicio;//request=corresponde al nombre del input del formulario.
+        $ficha->FIC_FechaFin= $request->fechafin;//request=corresponde al nombre del input del formulario.
+        $ficha->FIC_NombreProgramaFormacion= $request->programaformacion;//request=corresponde al nombre del input del formulario.
+        $ficha->save();
+        return redirect()->route('fichas.index');
+       
     }
 
     /**
@@ -55,9 +56,7 @@ class SubdirectorController extends Controller
      */
     public function show($id)
     {
-         return view("subdirector.show")
-        ->with('id',$id)
-        ->with('subdirector', $this->subdirectores[$id]);
+        //
     }
 
     /**
@@ -68,8 +67,7 @@ class SubdirectorController extends Controller
      */
     public function edit($id)
     {
-        return view ("subdirector.edit")
-        ->with ('id',$id);
+        //
     }
 
     /**

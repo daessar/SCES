@@ -1,6 +1,7 @@
 <?php
 use App\Http\Controllers\InicioController;
 use App\Http\Controllers\AntecedentesController;
+use App\Http\Controllers\FichaController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,3 +26,6 @@ Route::get('admin', function () {
 
 //Ruta Antecedentes
 Route::resource('Antecedentes', AntecedentesController::class);
+
+//Ruta Ficha
+Route::resource('fichas',FichaController::class);

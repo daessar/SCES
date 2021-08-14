@@ -23,7 +23,10 @@ class AntecedentesController extends Controller
     public function index()
     {
 
-        return view('Antecedentes.Index');
+        //return view('Antecedentes.antecedentes');
+        $antecedentes=sc_antecedentes::all();
+        return view('Antecedentes.antecedentes')
+            ->with('antecedentes', $antecedentes);
       
         //return view('inicio');
     }

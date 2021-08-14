@@ -10,4 +10,7 @@ class sc_ficha extends Model
     use HasFactory;
     protected $table ="sc_ficha";
     protected $primaryKey = "FIC_PK_Id";
+
+
+
 }

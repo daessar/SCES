@@ -46,7 +46,7 @@
             <hr>
             <label for="documento" > Documento: {{$antecedente->USU_FK_Usuarios_Aprendiz}} </label><br>
             <hr>
-            <label for="correo" > Correo: {{$antecedente->USU_FK_Usuarios_Aprendiz}}</label><br>
+            <label for="correo" > Correo: </label><br>
             <hr>
             <label for="Telefono" >Telefono del aprendiz...</label><br>
             <hr>
