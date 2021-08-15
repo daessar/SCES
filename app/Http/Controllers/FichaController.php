@@ -16,7 +16,7 @@ class FichaController extends Controller
     public function index()
     {
         $fichas=sc_ficha::all();
-        return view('fichas.index')
+        return view('fichas')
            ->with('fichas', $fichas);
     }
 
